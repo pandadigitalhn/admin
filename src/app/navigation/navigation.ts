@@ -25,10 +25,10 @@ export const navigation: FuseNavigation[] = [
             },
             {
                 id: 'calendar',
-                title: 'Calendar',
+                title: 'Load List',
                 translate: 'NAV.CALENDAR',
                 type: 'item',
-                icon: 'today',
+                icon: 'assignment',
                 url: '/apps/calendar'
             },
             {
@@ -62,13 +62,13 @@ export const navigation: FuseNavigation[] = [
                         id: 'login',
                         title: 'Login',
                         type: 'item',
-                        url: '/pages/auth/login'
+                        url: '/pages/auth/login-2'
                     },
                     {
                         id: 'login-v2',
                         title: 'Login v2',
                         type: 'item',
-                        url: '/pages/auth/login-2'
+                        url: '/pages/auth/login'
                     },
                     {
                         id: 'register',
